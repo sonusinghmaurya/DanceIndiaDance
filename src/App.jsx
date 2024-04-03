@@ -23,9 +23,9 @@ import ViewBranch from "./ADMIN/ViewBranch";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
     <Navbar/>
-      <Routes>
+      <Routes> 
       <Route path="/" element={<Protected_route><Bio/></Protected_route>}/>
         <Route path="/music" element={<Music/>}/>
         <Route path="/videos" element={<Videos/>}/>
