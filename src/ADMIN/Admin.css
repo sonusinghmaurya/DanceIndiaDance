@@ -1,0 +1,195 @@
+/* admin-dashboard.css */
+
+.admin-sidebar {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    transition: width 0.3s;
+    height: 700px;
+    
+  }
+  
+  .admin-sidebar h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+  
+  .admin-sidebar ul li a {
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    
+    
+  }
+  
+ /* add manager card display */
+ .view {
+  width: 100%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  flex: 0 0 calc(25% - 40px);
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 25px;
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.update-button, .delete-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.update-button {
+  background-color: #799d57;
+  color: #fff;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.update-button:hover, .delete-button:hover {
+  background-color: #496780;
+}
+
+  
+
+
+  /* view academy each manager */
+/*   
+.container_view_manager {
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.header_view_manager {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info_view_manager {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.buttons_view_manager {
+  margin-top: 20px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+} */
+
+
+.container_view_manager {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid   #312d2d;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.header_view_manager {
+  text-align: center;
+}
+
+.info_table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.info_row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.info_key {
+  flex: 1;
+  font-weight: bold;
+}
+
+.info_value {
+  flex: 2;
+}
+
+.buttons_view_manager {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  
+}
+
+button:hover {
+  background-color: #2980b9;
+} 
